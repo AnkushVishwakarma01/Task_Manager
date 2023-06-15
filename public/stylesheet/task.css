@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 40px 0px;
+}
+
+.form {
+    display: block;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 20px 0px;
+    padding-bottom: 3px;
+}
+
+.b {
+    border: 2px solid black;
+}
+
+.br {
+    border-right: 2px solid black;
+}
+
+.bt {
+    border-top: 2px solid black;
+}
+
+.bb {
+    border-bottom: 2px solid black;
+}
+
+.bl {
+    border-left: 2px solid black;
+}
+
+.br_none {
+    border-right: none;
+}
+
+.bl_none {
+    border-left: none;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    background: rgb(255, 50, 50);
+    color: white;
+    padding: 5px 10px;
+}
+
+.data_field {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    min-height: 50px;
+    max-height: 350px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border: 1px solid black;
+}
+
+.btn_field {
+    position: absolute;
+    top: 383px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    background: rgb(43, 35, 35);
+    color: white;
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.data {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px 5px;
+    width: 64%;
+    display: inline-block;
+}
+
+.update {
+    padding: 5px 10px;
+    background: rgb(62, 255, 62);
+    cursor: pointer;
+}
+
+.delete {
+    padding: 5px 10px;
+    background: rgb(62, 255, 62);
+    cursor: pointer;
+}
+
+#message {
+    padding-bottom: 3px;
+}
+
+#message > p {
+    padding: 5px;
+    text-align: center;
+}

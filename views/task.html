@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/task.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="container" id="formDOM">
+        <h1>Task Manager</h1>
+        <form action="" onsubmit="submitForm();return false">
+            <input type="text" id="query" class="bl bt bb br_none" placeholder="Enter query"/>
+            <input type="submit" value="Submit" class="bt br bb bl_none"/>
+            <input type="hidden" id="complete" value="true" />
+        </form>
+    </div>
+    <div class="data_field" id="data-field">
+        
+    </div>
+
+    <script src="/script/task.js"></script>
+</body>
+</html>
